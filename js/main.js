@@ -28,7 +28,7 @@ if (contactForm) {
       `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
     );
 
-    const gmailComposeUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=support@shenanigan-ranch.us&su=${subject}&body=${body}`;
+    const gmailComposeUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=bill@shenaniganranch.com&su=${subject}&body=${body}`;
     window.open(gmailComposeUrl, '_blank', 'noopener');
   });
 }
