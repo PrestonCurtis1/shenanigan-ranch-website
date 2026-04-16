@@ -268,6 +268,25 @@ h2 {
   margin-bottom: 0.45rem;
 }
 
+.tutorial-embed {
+  width: min(100%, 760px);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  overflow: hidden;
+  background: #171717;
+}
+
+.tutorial-embed iframe {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 0;
+}
+
+.tutorial-fallback {
+  margin-top: 0.75rem;
+}
+
 .content-grid {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
